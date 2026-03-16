@@ -489,16 +489,12 @@ function HeroSection() {
             <span><strong>Published:</strong> September 23, 2020</span>
           </div>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="hero-visual__panel hero-visual__panel--large">
-            <div class="hero-visual__line"></div>
-            <div class="hero-visual__line"></div>
-            <div class="hero-visual__line"></div>
-          </div>
-          <div class="hero-visual__panel hero-visual__panel--small">
-            <div class="hero-visual__line"></div>
-            <div class="hero-visual__line" style="width: 62%;"></div>
-          </div>
+        <div class="hero-visual hero-visual--image">
+          <img
+            src="https://www.apple.com/v/apple-vision-pro/j/images/overview/hero/hero__cvgr5aj1ttsi_large.jpg"
+            alt="Person wearing Apple Vision Pro"
+            class="hero-visual__image"
+          />
         </div>
       </div>
     </section>
